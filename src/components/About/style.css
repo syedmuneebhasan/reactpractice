@@ -1,0 +1,9 @@
+.about {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
