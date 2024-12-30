@@ -8,7 +8,6 @@ export const About = () => {
   const [name, setName] = useState("Shriyam");
   const native_place = "Gurgaon";
   console.log(name);
-
   return (
     <div className="about">
       <div>

@@ -1,0 +1,10 @@
+.personal {
+    display: flex;
+    gap: 3rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
