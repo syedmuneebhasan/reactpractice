@@ -11,6 +11,10 @@ const Personal = ({ myName, age }) => {
     viewFood: "",
   });
 
+  //   useEffect(() => {
+  //
+  //   },[])
+
   const handleDestinationChange = (e) => {
     setFav({ ...fav, destination: e.target.value });
   };
