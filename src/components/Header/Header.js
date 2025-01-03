@@ -8,7 +8,7 @@ export const Header = () => {
     <header className="header">
       <h1>Logo</h1>
       <div className="menu">
-        <p onClick={() => navigate("/about")}>About</p>
+        <p onClick={() => navigate("/muneeb")}>About</p>
         <p onClick={() => navigate("/contact-us")}>Contact Us</p>
       </div>
     </header>
