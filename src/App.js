@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Hero, Header, About, Footer } from "./components";
+import Memo from "./Memo";
+import Callback from "./Callback";
 function App() {
   return (
     <div className="App">
@@ -7,8 +9,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/muneeb" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact-us" element={<Footer />} />
+          <Route path="/memo" element={<Memo />} />
+          <Route path="/callback" element={<Callback />} />
         </Routes>
       </BrowserRouter>
     </div>

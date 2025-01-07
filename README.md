@@ -115,3 +115,9 @@ const ecommerce = () => {
 
 // callback hell
 ecommerce(); -->
+
+<!-- useMemo & useCallback -->
+
+useMemo => it is used to memoize a variable
+
+useCallback => it is used to memoize a function
