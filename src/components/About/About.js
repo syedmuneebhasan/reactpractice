@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import Personal from "../Personal/Personal";
 import { Todos } from "../Todos/Todos";
+import { CustomButton } from "../Button/Button";
 
 export const About = () => {
   // ref, useRef
@@ -50,7 +51,11 @@ export const About = () => {
           }
         />
         <h1>{count}</h1>
-        <button onClick={() => setCount(count + 1)}>increment</button>
+        <CustomButton
+          title="Increment"
+          incrementCounter={() => setCount(count + 1)}
+        />
+        {/* <button onClick={() => setCount(count + 1)}>Increment</button> */}
       </div>
       <Todos todo={todo} />
     </div>
