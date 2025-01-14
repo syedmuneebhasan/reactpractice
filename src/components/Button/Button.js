@@ -1,15 +1,15 @@
 import React from "react";
+import "./style.css";
 import Button from "@mui/material/Button";
 import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles({
-  btn: {
-    backgroundColor: "beige",
-  },
-});
-
+// const useStyles = makeStyles({
+//   btn: {
+//     backgroundColor: "beige !importa",
+//   },
+// });
 export const CustomButton = (props) => {
-  const styles = useStyles();
+  // const styles = useStyles();
   return (
     <div>
       {/* <button className="btn" onClick={props.incrementCounter}>
@@ -18,7 +18,7 @@ export const CustomButton = (props) => {
       <Button
         variant="contained"
         size="small"
-        className={styles.btn}
+        className="btn"
         onClick={props.incrementCounter}
       >
         {props.title}

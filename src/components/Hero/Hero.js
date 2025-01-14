@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className="Hero">
       <h1>This is Hero Section</h1>
-      <CustomButton />
+      <CustomButton title="Hero" />
     </div>
   );
 };
