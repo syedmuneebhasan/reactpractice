@@ -52,10 +52,7 @@ export const About = () => {
           }
         />
         <h1>{count}</h1>
-        <CustomButton
-          title="Increment"
-          incrementCounter={() => setCount(count + 1)}
-        />
+        <CustomButton title="Increment" onClick={() => setCount(count + 1)} />
         {/* <button onClick={() => setCount(count + 1)}>Increment</button> */}
       </div>
       <Todos todo={todo} />

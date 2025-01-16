@@ -19,7 +19,7 @@ export const CustomButton = (props) => {
         variant="contained"
         size="small"
         className="btn"
-        onClick={props.incrementCounter}
+        onClick={props.onClick}
       >
         {props.title}
       </Button>

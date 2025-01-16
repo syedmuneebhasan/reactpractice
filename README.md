@@ -121,3 +121,7 @@ ecommerce(); -->
 useMemo => it is used to memoize a variable
 
 useCallback => it is used to memoize a function
+
+= assigning
+== compare value
+=== compare value and data type
