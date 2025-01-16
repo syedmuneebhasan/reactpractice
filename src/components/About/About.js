@@ -28,6 +28,7 @@ export const About = () => {
     callTodos();
   }, []);
 
+  console.log({ todo });
   console.log({ name });
 
   return (
